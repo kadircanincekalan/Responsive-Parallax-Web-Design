@@ -86,3 +86,35 @@ html,body{
     background-color: #282E34;
     color: #ddd;
 }
+
+
+@media(max-width:760px){
+    .heading-container{
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    
+    }
+    .heading-container__heading{
+        padding: 0.8rem;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        outline: 0.5rem inset purple;
+        outline-offset: 0.3rem;
+        line-height: 2.4rem;
+    }
+    .heading-container__text{
+        padding: 0.4rem;
+        line-height: 2.5rem;
+        border-top-left-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+        outline: 0.2rem inset purple;
+        outline-offset: 0.2rem;
+    }
+    .heading-container__logo{
+        width: 50%;
+    }
+    .section{
+        padding: 1.5rem 2rem;
+    }
+
+}
