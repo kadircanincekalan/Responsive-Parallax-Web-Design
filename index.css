@@ -32,7 +32,7 @@ html,body{
     position: relative;
     opacity: 0.7;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -56,4 +56,33 @@ html,body{
     border-bottom-right-radius: 2rem;
     outline: 0.5rem inset purple;
     outline-offset: 1rem;
+    line-height: 5rem;
+}
+.heading-container__logo{
+    width: 30%;
+    opacity: 1;
+
+}
+.heading-container__text{
+    background-color: black;
+    color: white;
+    padding: 0.8rem;
+    line-height: 5rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.2rem;
+    text-transform: capitalize;
+}
+.section{
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.section--light{
+    background-color: rgb(241,241,241);
+    color: #666;
+}
+.section--dark{
+    background-color: #282E34;
+    color: #ddd;
 }
