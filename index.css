@@ -95,7 +95,7 @@ html,body{
     
     }
     .heading-container__heading{
-        padding: 0.8rem;
+        padding: 0.6rem;
         border-top-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
         outline: 0.5rem inset purple;
